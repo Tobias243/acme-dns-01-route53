@@ -1,0 +1,36 @@
+{
+	"name": "acme-dns-01-route53",
+	"version": "0.0.1",
+	"description": "Route53 DNS challenge for Greenlock.js",
+	"main": "index.js",
+	"homepage": "todo",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"test": "node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "todo"
+	},
+	"keywords": [
+		"letsencrypt",
+		"acme",
+		"dns-01",
+		"route53",
+		"greenlock"
+	],
+	"author": "Tobias Hnyk <tobias.opensource@gmail.com>",
+	"dependencies": {
+		"@aws-sdk/client-route-53": "^3.315.0",
+		"dotenv": "^16.0.3"
+	},
+	"devDependencies": {
+		"acme-challenge-test": "3.3.2",
+		"acme-dns-01-test": "3.3.2"
+	},
+	"engines": {
+		"node": ">=14"
+	}
+}
